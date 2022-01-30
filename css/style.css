@@ -1,21 +1,27 @@
+/* All Item Styling */
 * {
   padding: 5px;
   text-align: center;
 }
+/* List Item Remove Underline */
 li {
   list-style: none;
 }
+/* Margin Option */
 ul {
   margin-top: -20px;
 }
-
+/* H1 Color Configuration */
 h1 {
   color: #1467ac;
 }
+
+/* H2,H3 Color Configuration */
 h2,
 h3 {
   color: #4a69bd;
 }
+/* H1 Hover Effect Options */
 h1:hover {
   color: rgb(48, 25, 112);
   font-style: italic;
@@ -23,6 +29,7 @@ h1:hover {
   transition-duration: 1s;
   cursor: pointer;
 }
+/* H2 Hover Effect Options */
 h2:hover {
   color: rgb(48, 25, 112);
   font-style: italic;
@@ -30,6 +37,7 @@ h2:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+/* H3 Hover Effect Options */
 h3:hover {
   color: rgb(48, 25, 112);
   font-style: italic;
@@ -37,9 +45,11 @@ h3:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+/* Img Circular Option */
 img {
   border-radius: 50%;
 }
+/* Img Hover Effect Options */
 img:hover {
   border-radius: 0%;
 }
